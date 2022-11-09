@@ -1,1 +1,13 @@
 git init # to initialize git locally
+
+git ls-remote https://github.com/repo-owner/repo-name.git/ 
+
+git remote add origin https://github.com:/repo-owner/repo-name.git # adding origin to the git
+
+git remote -v  # listing the fetch git and push git for the repo
+origin  https://github.com:/repo-owner/repo-name.git (fetch)
+origin  https://github.com:/repo-owner/repo-name.git (push)
+
+git commit -m "comments for commit" # -m stands for message
+
+git push --set-upstream origin master
