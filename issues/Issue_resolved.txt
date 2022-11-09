@@ -1,0 +1,5 @@
+ISSUE : 
+  fatal: pathspec 'README.md' did not match any files
+SOLUTION:
+  git >> README.md
+  git add README.md
